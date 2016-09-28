@@ -8,6 +8,7 @@ if (typeof window.LearnPress == 'undefined') {
 (function ($) {
 	$.fn.hasEvent = function (name) {
 		var events = $(this).data('events');
+		var event1 = $(this).data('events');
 		if (typeof events.LearnPress == 'undefined') {
 			return false;
 		}
