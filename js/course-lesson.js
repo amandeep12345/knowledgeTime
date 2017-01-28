@@ -5,7 +5,7 @@
 	}
 	$.LP_Course_Item.Model = Backbone.Model.extend({
 		url       : function () {
-			return this.rootUrl
+	
 		},
 		rootUrl   : '',
 		initialize: function (data) {
