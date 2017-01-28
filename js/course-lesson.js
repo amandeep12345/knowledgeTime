@@ -12,7 +12,7 @@
 			this.rootUrl = data.rootUrl;
 		},
 		load      : function (callback) {
-			var that = this,
+			
 				_completed = function (response, success) {
 					var $html = $(response || ''),
 						$lesson = $html.find('#learn-press-course-lesson');
